@@ -1,0 +1,127 @@
+header{
+background-color: #a52a2a; /*цвет фона*/
+height: 500px; /*высота*/
+color:aliceblue; /*цвет текста*/
+font-size: 30px; /*размер текста*/
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQerdvyVEhCmLwym2djg5GnjuChIiwcOo9wpDDIgEYDgQ&s=10);
+background-size: cover;
+background-position: center;
+background-position-x: left;
+background-position-y: -100px;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+padding:top 50px;
+}
+
+main{
+    background-color: #549dfc; /*цвет фона*/
+    height: 900px; /*высота*/
+    color:aliceblue; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #55c2f5; /*цвет фона*/
+    height: 100%; /*высота*/
+    color:aliceblue; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    /* Уберите height: 100%; либо замените на min-height или auto */
+    height: auto; 
+    min-height: 500px; /* Задайте минимальную высоту, если нужно */
+    background-color: rgb(25, 65, 139);
+    display: flex; /* Если вы используете flex, лучше добавить выравнивание */
+}
+
+.left {
+    width: 50%;
+    /* Уберите height: 100%; чтобы блок не тянулся по высоте */
+    height: 900px; 
+    background: linear-gradient(to left, rgb(214, 195, 19), rgb(255, 153, 0));
+    float: left;
+    padding: 10px;
+}
+
+.right {
+    width: 50%;
+    /* Уберите height: 100%; чтобы блок не тянулся по высоте */
+    height: 900px; 
+    background: linear-gradient(to left, rgb(0, 89, 255), rgb(133, 251, 255));
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Общий контейнер для двух новых зон, который отделяет их сверху */
+.content-section {
+    width: 80%;
+    margin-top: 50px; /* Создает отступ сверху, чтобы они не прилипали к шапке */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Расстояние между левой и правой зоной */
+}
+
+/* Левая зона */
+.zone-left {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgb(255, 102, 0));
+    padding: 20px;
+    border-radius: 8px; /* Скругленные углы для красоты */
+    box-sizing: border-box;
+}
+
+/* Правая зона */
+.zone-right {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(0, 17, 110), rgb(123, 0, 206));
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+body{
+    margin: 0;
+}
+
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img{
+    padding-top: 20px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
+
+.f_right img{
+    width: 100px;
+}
+
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}

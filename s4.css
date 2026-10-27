@@ -1,0 +1,21 @@
+body {
+    background-color: blueviolet;
+    color: white; /* Белый цвет текста для шапки сайта */
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+header {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: orange;
+    height: 200px;
+    font-size: 40px;
+    color: black; /* Черный цвет текста для контраста на оранжевом фоне */
+    display: flex;
+    align-items: center; /* Центрирование текста по вертикали */
+    padding-left: 20px; /* Отступ текста от левого края */
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: blueviolet;
+    margin: 0; /* Убираем стандартные отступы браузера, чтобы шапка прилегала к краям */
+    font-family: sans-serif;
+}
+
+header {
+    background-color: orange;
+    height: 200px;
+    font-size: 60px;
+    
+    /* Работа с текстом */
+    color: white;             /* Белый цвет текста */
+    font-weight: bold;        /* Жирный шрифт */
+    text-align: center;       /* Выравнивание текста по центру горизонтали */
+    
+    /* Центрирование текста по вертикали внутри 200px */
+    line-height: 200px;       /* Высота строки равна высоте блока */
+}

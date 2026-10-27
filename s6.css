@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(124, 236, 251);
+    margin: 0; /* Убираем отступы, чтобы блоки прилегали к краям экрана */
+}
+
+header{
+    background-color: rgb(4, 0, 255);
+    height: 200px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    padding-top: 20px; /* Немного опустим текст для красоты */
+    box-sizing: border-box;
+}
+
+p{
+    color: darkorange;
+    font-size: 30px;
+    font-style: italic;
+    margin: 10px 0 0 0; /* Уменьшили стандартные отступы абзаца */
+}
+
+main{
+    height: 800px;
+}
+
+/* Добавили точки перед классами и изменили ширину, чтобы они поместились вместе */
+.left{
+    float: left;
+    width: 50%; /* Теперь левая часть занимает ровно половину */
+    height: 100%;
+    background-color: rgb(59, 139, 28);
+}
+
+.right{
+    float: right;
+    width: 50%; /* Теперь правая часть занимает вторую половину */
+    height: 100%;
+    background-color: rgb(221, 129, 240);
+}

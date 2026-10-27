@@ -1,72 +1,95 @@
-zbody{
-    margin: 0;                              /*убирает отступы от всех краев*/
-    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
-    background-size: 100%;                  /*размер фона*/
-    background-position-y: -50px;           /*изображение чуть поднято наверх*/
-    background-attachment: fixed;           /*фиксация фона*/
-}
-
 header{
-    height: 100%;               /*высота*/
-    padding: 30px;          /*внутренний отступ*/
-    text-align: right;      /*текст выровнени влево*/
-    color: rgb(0, 0, 91); /*цвет текста*/
-    font-size: 25px;        /*размер текста*/
-}
-
-h1{
-    padding-top: 50px;  /*Дополнительный отступ заголовка*/
-    font-size: 80px;    /*размер заголовка*/
-    color:rgb(255, 255, 255);  /*цвет*/
+    background-color: #a52a2a; /*цвет фона*/
+    height: 500px; /*высота*/
+    color:aliceblue; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVzBB563RJCqVGiChHNW6sP-SbPMZz11H3XbZsqBuP0Q&s=10);
+    background-size: cover;
+    background-position: center;
+    background-position-x: left;
+    background-position-y: -100px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    padding:top 50px;
 }
 
 main{
-    height: 1000px;   /*высота основной части*/
+    background-color: #000000; /*цвет фона*/
+    height: 900px; /*высота*/
+    color:aliceblue; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
     display: flex;
+    justify-content: center;
 }
 
 footer{
-    height: 100%;    /*высота*/
-    text-align: left;  /*текст выровннен влево*/
-    padding: 50px;   /*внутренний оступ*/
-    color: white;  /*цвет текста*/
-    font-size: 20px;  /*размер текста*/
+    background-color: #3b2d61; /*цвет фона*/
+    height: 100%; /*высота*/
+    color:aliceblue; /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    display: flex;
 }
 
-.social{
-    list-style: none; /*убирает маркеры*/
-    display: flex; /*отображает в ряд*/
-    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
-    justify-content: left; /*выравнивает все иконки по центру страницы*/
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(25, 65, 139);
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( to left, green, blue);
+    float: left;
+    padding: 10px;
+
+}
+
+.block{
+    background: linear-gradient( to left, green, blue); 
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background: linear-gradient( to left, rgb(128, 0, 122), rgb(36, 0, 83));
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+body{
     margin: 0;
-    padding: 0;
 }
 
-.social li {
-    padding-left: 10px;
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img{
     padding-top: 20px;
 }
 
-.block1{
-    width: 25%;
-    height: 100%;
-    background-color: coral;
+.f_right{
+    width: 70%;
+    float: right;
 }
 
-.block2{
-    width: 25%;
-    height: 100%;
-    background-color: rgb(80, 156, 255);
+.f_right img{
+    width: 100px;
 }
 
-.block3{
-    width: 25%;
-    height: 100%;
-    background-color: rgb(135, 255, 80);
-}
-
-.block4{
-    width: 25%;
-    height: 100%;
-    background-color: rgb(252, 255, 80);
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
